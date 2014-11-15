@@ -3,6 +3,8 @@ DataSerializer
 
 
 ```javascript
+var Serializer = require('dataserializer');
+
 var model = {
   username: 'kulakowka',
   firstname: 'Anton',
@@ -22,6 +24,4 @@ var result = Serializer(rules, model);
 console.log('Serialized data', result); 
 
 // Serialized data Object {username: "kulakowka", fullname: "Anton Kulakov"} 
-
-
 ```
