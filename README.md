@@ -3,7 +3,7 @@ DataSerializer
 
 
 ```javascript
-var Serializer = require('./index.js');
+var Serializer = require('dataserializer');
 
 var model = {
   username: 'kulakowka',
@@ -48,4 +48,5 @@ Serialized collection
   } 
 ]
 */
+
 ```
