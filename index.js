@@ -1,7 +1,23 @@
-module.exports = function Serializer(rules, model){
-  var resultObj = {};
-  model = model || {};
+module.exports = function Serializer(rules, data){
   
+  if( Object.prototype.toString.call( data ) === '[object Array]' ){
+    return data.map(function(item){ 
+      return serializeData(rules, item);
+    });
+  }else if(data === Object(data)){
+    return serializeData(rules, data);
+  }else{
+    return null;
+  }
+
+}
+
+var serializeData = function(rules, model){
+  
+  var resultObj = {};
+  
+  model = model || {};
+
   for(var key in rules) { 
     if (rules.hasOwnProperty(key)) {
       if(rules[key] === true){
@@ -14,3 +30,4 @@ module.exports = function Serializer(rules, model){
   }   
   return resultObj;
 }
+

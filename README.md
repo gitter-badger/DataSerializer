@@ -3,7 +3,7 @@ DataSerializer
 
 
 ```javascript
-var Serializer = require('dataserializer');
+var Serializer = require('./index.js');
 
 var model = {
   username: 'kulakowka',
@@ -12,6 +12,8 @@ var model = {
   password: 'qwerty'
 }
 
+var collection = [model, model];
+
 var rules = {
   'username': true,
   'fullname': function() {
@@ -19,9 +21,31 @@ var rules = {
   }
 }
 
-var result = Serializer(rules, model);
+var model = Serializer(rules, model);
 
-console.log('Serialized data', result); 
+console.log('Serialized model', model); 
 
-// Serialized data Object {username: "kulakowka", fullname: "Anton Kulakov"} 
+var collection = Serializer(rules, collection);
+
+console.log('Serialized collection', collection); 
+
+/*
+Serialized model 
+{ 
+  username: 'kulakowka', 
+  fullname: 'Anton Kulakov' 
+}
+
+Serialized collection 
+[ 
+  { 
+    username: 'kulakowka', 
+    fullname: 'Anton Kulakov' 
+  },
+  { 
+    username: 'kulakowka', 
+    fullname: 'Anton Kulakov' 
+  } 
+]
+*/
 ```
