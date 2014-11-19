@@ -51,3 +51,6 @@ Serialized collection
 */
 
 ```
+
+[npm-image]: https://img.shields.io/npm/v/mysql.svg?style=flat
+[npm-url]: https://www.npmjs.org/package/dataserializer
