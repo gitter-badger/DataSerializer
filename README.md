@@ -1,5 +1,6 @@
 DataSerializer
 ==============
+[![NPM Version][npm-image]][npm-url]
 
 
 ```javascript
