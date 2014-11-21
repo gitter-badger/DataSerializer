@@ -1,4 +1,4 @@
-var assert = require("should")
+var should = require("should");
 
 var Serializer = require('./index');
 
