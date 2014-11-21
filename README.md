@@ -65,5 +65,5 @@ Serialized collection
 [node-version-image]: https://img.shields.io/badge/node.js-%3E%3D_10.0-brightgreen.svg?style=flat
 [node-version-url]: http://nodejs.org/download/
 
-[downloads-image]: https://img.shields.io/npm/v/dataserializer.svg?style=flat
+[downloads-image]: https://img.shields.io/npm/dm/dataserializer.svg?style=flat
 [downloads-url]: https://www.npmjs.org/package/dataserializer
