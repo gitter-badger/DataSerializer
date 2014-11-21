@@ -4,9 +4,7 @@
   "description": "Simple data serializer for node.js",
   "main": "index.js",
   "dependencies": {
-    "mocha": "^2.0.1"
-  },
-  "devDependencies": {
+    "mocha": "^2.0.1",
     "should": "^4.3.0"
   },
   "scripts": {
