@@ -4,7 +4,7 @@ DataSerializer
 [![Build Status][travis-image]][travis-url]
 [![NPM Downloads][downloads-image]][downloads-url]
 [![Node.js Version][node-version-image]][node-version-url]
-[![Build Status][travis-image]][travis-url]
+
 
 
 
