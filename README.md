@@ -5,6 +5,7 @@ DataSerializer
 [![NPM Downloads][downloads-image]][downloads-url]
 [![Node.js Version][node-version-image]][node-version-url]
 
+[![NPM](https://nodei.co/npm/dataserializer.png?downloads=true)](https://nodei.co/npm/dataserializer/)
 
 
 
