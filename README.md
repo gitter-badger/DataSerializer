@@ -1,5 +1,7 @@
 DataSerializer
 ==============
+
+[![Join the chat at https://gitter.im/kulakowka/DataSerializer](https://badges.gitter.im/Join%20Chat.svg)](https://gitter.im/kulakowka/DataSerializer?utm_source=badge&utm_medium=badge&utm_campaign=pr-badge&utm_content=badge)
 [![NPM Version][npm-image]][npm-url]
 [![Build Status][travis-image]][travis-url]
 [![NPM Downloads][downloads-image]][downloads-url]
